@@ -467,4 +467,4 @@ if __name__ == "__main__":
     verbose = args.verbose
     
     
-    run_demo(N=8, J=1.0, h=1.0, m_list=(4, 8, 16, 32), sweeps=4, seed=1)
+    run_demo(N=N, J=J, h=h, m_list=(4, 8, 16, 32), sweeps=sweeps, seed=42)
